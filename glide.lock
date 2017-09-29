@@ -1,5 +1,5 @@
-hash: 84f7b9474686211e96d652c2cd669e5931fb47f13a3af3b3713dfff92931d63d
-updated: 2017-09-29T10:56:18.73209855+02:00
+hash: e9c2dd3f153900f651e157098e50db010f674b3ae184c5bbecdb49a5ab6683ba
+updated: 2017-09-29T15:43:38.683918727+02:00
 imports:
 - name: github.com/armon/go-metrics
   version: 97c69685293dce4c0a2d0b19535179bbc976e4d2
@@ -14,7 +14,7 @@ imports:
   subpackages:
   - go-bindata-assetfs
 - name: github.com/fabric8-services/fabric8-wit
-  version: 58db841e76891f1251bdec86908c61360f11d375
+  version: 4419b9ea51938829dfdf18aad659ac34c7d01488
   subpackages:
   - configuration
   - design
@@ -49,7 +49,7 @@ imports:
   - middleware/security/jwt
   - uuid
 - name: github.com/gregjones/httpcache
-  version: 0d2297f241a3503b4d464cd434e6d1490ec76e9a
+  version: c1f8028e62adb3d518b823a2f8e6a95c38bdd3aa
 - name: github.com/hashicorp/hcl
   version: 37ab263305aaeb501a60eb16863e808d426e37f2
   subpackages:
@@ -83,8 +83,10 @@ imports:
   version: 645ef00459ed84a119197bfb8d8205042c6df63d
 - name: github.com/satori/go.uuid
   version: b061729afc07e77a8aa4fad0a2fd840958f1942a
-- name: github.com/sirupsen/logrus
+- name: github.com/Sirupsen/logrus
   version: 89742aefa4b206dcf400792f3bd35b542998eb3b
+- name: github.com/sirupsen/logrus
+  version: c078b1e43f58d563c74cebe63c85789e76ddb627
 - name: github.com/spf13/afero
   version: 2f30b2a92c0e5700bcfe4715891adb1f2a7a406d
   subpackages:
